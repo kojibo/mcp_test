@@ -65,6 +65,7 @@ app.MapMcp("/mcp").RequireAuthorization("McpAccess");
 
 app.Run();
 
+
 static string RequiredSetting(IConfiguration configuration, string key) =>
     configuration[key] is { Length: > 0 } value
         ? value
