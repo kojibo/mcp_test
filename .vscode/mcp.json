@@ -2,9 +2,9 @@
   "servers": {
     "secretTest": {
       "type": "http",
-      "url": "https://replace-with-your-https-mcp-url/mcp",
+      "url": "http://localhost:50000/mcp",
       "oauth": {
-        "clientId": "replace-with-your-vs-code-client-application-id"
+        "clientId": "mon-client-id"
       }
     }
   }
