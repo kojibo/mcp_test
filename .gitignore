@@ -3,3 +3,6 @@ obj/
 .vs/
 *.user
 *.suo
+
+# Local development secrets for OAuth / MCP
+src/McpTest/appsettings.Development.json
